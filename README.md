@@ -29,3 +29,13 @@
 * squerly for postgres persistence
 * redis for caching
 * S3 for analytics, view, etc.. storage
+
+## Technical Tools
+
+* [dart] for front end design work?
+* [polymer] for front end design work?
+* [angular.js] for front end design work?
+
+[dart]: http://www.dartlang.org
+[angular.js]: http://angularjs.org
+[polymer]: httpa://www.polymer-project.org/getting-started.html
