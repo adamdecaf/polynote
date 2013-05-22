@@ -21,6 +21,12 @@
   * NSFW mode to view friends NSFW content (and perhaps NSFW only friends?)
   * By default hide actions on NSFW content, but can be public by default if wanted.
 * Spam management
+* User Settings Management
+
+## Pages (That need hard coded html)
+
+* Home page
+* Privacy Policy
 
 ## Technical Details
 
