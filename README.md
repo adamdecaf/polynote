@@ -10,6 +10,7 @@
 * "Liking" [privately] (need term) and "Promoting" [publicly] (need term) notes of others
 * Notes can have text, images, video, links, (basic) html
 * Search through notes (only friends, specific user, all, etc..)
+* Search for users and NSFW users
 * Scheduled Notes (set up a note to be posted later)
 * Sharing on other services (FB, Twitter, etc..)
 * Support for music from itunes, youtube, spotify, etc..

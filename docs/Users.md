@@ -1,6 +1,6 @@
 # Polynote Users
 
-## Specific User Data
+## Specific user data
 
     GET /users/:userId/details
 
@@ -17,7 +17,13 @@
 }
 ```
 
-## Dashoard of Notes
+## Specific NSFW user data
+
+## Update user data
+
+## Update NSFW user data
+
+## Dashoard Details
 
     GET /users/:userId/dashboard
 
@@ -42,3 +48,5 @@
     ]
 }
 ```
+
+## NSFW Dashboard Details

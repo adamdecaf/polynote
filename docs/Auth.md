@@ -31,3 +31,7 @@
     "redirectUrl": "..."
 }
 ```
+
+## Creating a NSFW account
+
+## Logging out of a NSFW account
