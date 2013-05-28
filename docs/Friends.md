@@ -1,13 +1,34 @@
 # Polynote Friends
 
-## Adding a friend
+## Adding a friend [MOCKED]
 
-## Viewing friends
+    POST /users/:userId/friends/:friendId
 
-## Deleting a friend
+Will return a `201 Created` if it can be created and a  `403 Forbidden` if
+the request is not authorized. Then a `400 BadRequest` otherwise.
 
-## Adding a NSFW friend
+## Viewing friends [MOCKED]
 
-## Viewing NSFW friends
+    GET /users/:userId/friends
 
-## Deleting a NSFW friend
+Will return json like:
+
+```json
+{
+    "friends": [
+        "userId1",
+        "userId2",
+        ...
+    ]
+}
+```
+
+## Deleting a friend [MOCKED]
+
+    DELETE /users/:userId/friends/:friendId
+
+## Adding a NSFW friend [MISSING]
+
+## Viewing NSFW friends [MISSING]
+
+## Deleting a NSFW friend [MISSING]

@@ -1,13 +1,57 @@
 # Polynote Notes
 
-## Creating a note
+## Get a specific note [MISSING]
 
-## Editing a note
+    GET /notes/:noteId
 
-## Deleting a note
+Will return the following json
 
-## Liking a note
+```json
+{
+    "noteId": "...",
+    "userId": "...",
+    "content": "...",
+    "createdAt": "..."
+}
+```
 
-## Promoting a note
+## Creating a note [MISSING]
 
-## Search through notes
+    POST /notes
+
+With the body as the note's content.
+
+Will then return something like:
+
+```json
+{
+    "noteId": "..."
+}
+```
+
+## Editing a note [MISSING]
+
+    PUT /notes/:noteId
+
+With the body as the note's content.
+
+## Deleting a note [MISSING]
+
+    DELETE /notes/:noteId
+
+## Liking a note [MISSING]
+
+    POST /notes/:noteId/likes
+
+## Promoting a note [MISSING]
+
+    POST /notes/:noteId/promotions
+
+## Search through notes [MISSING]
+
+    GET /notes
+
+**Params**
+
+* `text`: Search the note's text.
+* `author`: Search by the authors id/name

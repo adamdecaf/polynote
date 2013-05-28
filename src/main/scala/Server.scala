@@ -1,12 +1,15 @@
 package org.decaf.polynote
 import akka.actor.{Actor, Props}
-import spray.routing.HttpServiceActor
+import spray.routing.{ExceptionHandler, HttpServiceActor}
 import spray.can.server.SprayCanHttpServerApp
+import org.decaf.polynote.friends.FriendsRoute
 
 object HttpServerActor {
-  lazy val actor = PolynoteActorSystem.actorOf(Props(new Actor with HttpServiceActor {
+  lazy val actor = PolynoteActorSystem.actorOf(Props(new HttpServiceActor with Actor {
     def receive = runRoute {
-      PingRoute.route
+      PingRoute.route ~
+      IndexRoute.route
+      FriendsRoute.route
     }
   }))
 }
