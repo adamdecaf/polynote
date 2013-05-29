@@ -27,6 +27,8 @@ Will return json like:
 
     DELETE /users/:userId/friends/:friendId
 
+Will return `OK 200` on success.
+
 ## Adding a NSFW friend [MISSING]
 
 ## Viewing NSFW friends [MISSING]

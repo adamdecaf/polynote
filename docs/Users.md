@@ -1,6 +1,6 @@
 # Polynote Users
 
-## Specific user data
+## Specific user data [MISSING]
 
     GET /users/:userId/details
 
@@ -17,7 +17,7 @@
 }
 ```
 
-## Specific NSFW user data
+## Specific NSFW user data [MISSING]
 
     GET /nsfw/users/:userId/details
 
@@ -34,7 +34,7 @@
 }
 ```
 
-## Update user data
+## Update user data [MISSING]
 
     POST /users/details
 
@@ -50,7 +50,7 @@
 
 ```
 
-## Update NSFW user data
+## Update NSFW user data [MISSING]
 
     POST /nsfw/users/details
 
@@ -67,7 +67,7 @@
 ```
 
 
-## Dashoard Details
+## Dashoard Details [MISSING]
 
     GET /users/:userId/dashboard
 
@@ -93,7 +93,7 @@
 }
 ```
 
-## NSFW Dashboard Details
+## NSFW Dashboard Details [MISSING]
 
     GET /nsfw/users/:userId/dashboard
 

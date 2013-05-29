@@ -39,13 +39,19 @@ With the body as the note's content.
 
     DELETE /notes/:noteId
 
+Will return `OK 200` on success.
+
 ## Liking a note [MISSING]
 
     POST /notes/:noteId/likes
 
+Will return `OK 200` on success.
+
 ## Promoting a note [MISSING]
 
     POST /notes/:noteId/promotions
+
+Will return `OK 200` on success.
 
 ## Search through notes [MISSING]
 
@@ -55,3 +61,18 @@ With the body as the note's content.
 
 * `text`: Search the note's text.
 * `author`: Search by the authors id/name
+
+Will return
+
+```json
+{
+    "notes": [
+        {
+            "noteId": ""
+            "userId": "...",
+            "content": "...",
+            "createdAt": "..."
+        }
+    ]
+}
+```

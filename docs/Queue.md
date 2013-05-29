@@ -1,13 +1,48 @@
 # Polynote Queue
 
-## Creating a QueuedNote
+## Creating a QueuedNote [MISSING]
 
-## Viewing QueuedNotes
+    POST /notes/:noteId/queue
 
-## Deleting a QueuedNote
+With json of:
 
-## Creating a NSFW QueuedNote
+```json
+{
+    "postDate": 1234567890
+}
+```
 
-## Viewing NSFW QueuedNotes
+Will return `OK 200` on success.
 
-## Deleting a NSFW QueuedNote
+## Viewing QueuedNotes [MISSING]
+
+    GET /users/:noteId/queue
+
+Will return
+
+```json
+{
+    "queue": [
+        {
+            "noteId": "...",
+            "title": "..."
+        },
+        {
+            "noteId": "...",
+            "title": "..."
+        }
+    ]
+}
+```
+
+## Deleting a QueuedNote [MISSING]
+
+    DELETE /notes/:noteId/queue
+
+Will return `OK 200` on success.
+
+## Creating a NSFW QueuedNote [MISSING]
+
+## Viewing NSFW QueuedNotes [MISSING]
+
+## Deleting a NSFW QueuedNote [MISSING]

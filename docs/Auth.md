@@ -1,6 +1,6 @@
 # Polynote Auth
 
-## Creating an Account
+## Creating an Account [MISSING]
 
     POST /users
 
@@ -20,7 +20,7 @@
 }
 ```
 
-## Logging out
+## Logging out [MISSING]
 
     DELETE /users/:userId
 
@@ -32,7 +32,7 @@
 }
 ```
 
-## Creating a NSFW account
+## Creating a NSFW account [MISSING]
 
     POST /nsfw/users
 
@@ -52,7 +52,7 @@
 }
 ```
 
-## Logging out of a NSFW account
+## Logging out of a NSFW account [MISSING]
 
     DELETE /nsfw/users/:userId
 

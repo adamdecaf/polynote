@@ -1,19 +1,42 @@
 # Polynote NSFW-Mode
 
-## Get NSFW friends
+## Get NSFW friends [MISSING]
 
-## Get NSFW notes
+    GET /users/:userId/nsfw/friends
 
-## Get NSFW likes
+## Get NSFW notes [MISSING]
 
-## Creating a NSFW note
+    GET /users/:userId/nsfw/notes
 
-## Editing a NSFW note
+## Creating a NSFW note [MISSING]
 
-## Deleting a NSFW note
+    POST /notes/nsfw
 
-## Liking a NSFW note
+## Editing a NSFW note [MISSING]
 
-## Promoting a NSFW note
+    PUT /notes/:noteId/nsfw
 
-## Search through NSFW notes
+## Deleting a NSFW note [MISSING]
+
+    DELETE /notes/:noteId/nsfw
+
+## Liking a NSFW note [MISSING]
+
+    POST /notes/:noteId/nsfw/likes
+
+## Viewing NSFW notes [MISSING]
+
+    GET /notes/:noteId/nsfw/likes
+
+## Promoting a NSFW note [MISSING]
+
+    POST /notes/:noteId/nsfw/promotions
+
+## Search through NSFW notes [MISSING]
+
+    GET /notes/nsfw
+
+**Params**
+
+* `text`: Search the note's text.
+* `author`: Search by the authors id/name
